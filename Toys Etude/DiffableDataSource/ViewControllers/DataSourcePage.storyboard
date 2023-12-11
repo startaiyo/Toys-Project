@@ -8,18 +8,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Diffable Data Source Page View Controller-->
+        <!--Data Source Page View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="DiffableDataSourcePage" id="Y6W-OH-hqX" customClass="DiffableDataSourcePageViewController" customModule="Toys_Etude" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DataSourcePage" id="Y6W-OH-hqX" customClass="DataSourcePageViewController" customModule="Toys_Etude" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="E6l-P1-d03">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jbc-FO-YBi">
                                 <rect key="frame" x="0.0" y="59" width="393" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WUW-0H-ckY">
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="J7U-gV-T0V">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -27,37 +28,31 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xja-h5-qeW">
-                                <rect key="frame" x="157" y="665" width="78" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L7-b8-CwO">
+                                <rect key="frame" x="157" y="673" width="78" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="refresh"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfY-cl-XCK">
-                                <rect key="frame" x="283" y="665" width="72" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xg-gJ-oK2">
+                                <rect key="frame" x="272" y="673" width="78" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="delete"/>
+                                <buttonConfiguration key="configuration" style="plain" title="update"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="E6l-P1-d03" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="GDW-1F-DXI"/>
-                            <constraint firstItem="E6l-P1-d03" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="eI5-mT-e9s"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="E6l-P1-d03" secondAttribute="trailing" id="ocz-8b-GMl"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="E6l-P1-d03" secondAttribute="bottom" constant="161" id="yDR-Tr-NKr"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="E6l-P1-d03" id="XmC-Ta-WFi"/>
-                        <outlet property="refreshButton" destination="Xja-h5-qeW" id="Tj8-bt-xmF"/>
-                        <outlet property="updateButton" destination="yfY-cl-XCK" id="jPu-45-h5T"/>
+                        <outlet property="collectionView" destination="jbc-FO-YBi" id="aMq-Q0-o2e"/>
+                        <outlet property="refreshButton" destination="0L7-b8-CwO" id="lQT-13-xXe"/>
+                        <outlet property="updatebutton" destination="1xg-gJ-oK2" id="IqA-x6-krr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-92.36641221374046" y="4.9295774647887329"/>
+            <point key="canvasLocation" x="-57.251908396946561" y="4.9295774647887329"/>
         </scene>
     </scenes>
     <resources>

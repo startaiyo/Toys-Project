@@ -13,6 +13,9 @@ struct RootListView: View {
             NavigationLink(destination: DiffableDataSourcePageViewControllerRepresentable()) {
                 Text("DiffableDataSourcePageViewController")
             }
+            NavigationLink(destination: DataSourcePageViewControllerRepresentable()) {
+                Text("DataSourcePageViewController")
+            }
         }
     }
 }

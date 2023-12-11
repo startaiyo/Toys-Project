@@ -21,6 +21,11 @@
 		F89B36062B244E1D00CCE6C3 /* DiffableDataSourcePageViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36052B244E1D00CCE6C3 /* DiffableDataSourcePageViewControllerRepresentable.swift */; };
 		F89B36092B244EE700CCE6C3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36082B244EE700CCE6C3 /* CollectionViewCell.swift */; };
 		F89B360B2B244F3C00CCE6C3 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F89B360A2B244F3C00CCE6C3 /* CollectionViewCell.xib */; };
+		F89B360D2B24526D00CCE6C3 /* DataSourcePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B360C2B24526D00CCE6C3 /* DataSourcePageViewController.swift */; };
+		F89B360F2B24527A00CCE6C3 /* DataSourcePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89B360E2B24527A00CCE6C3 /* DataSourcePage.storyboard */; };
+		F89B36122B245FAF00CCE6C3 /* DataSourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36112B245FAF00CCE6C3 /* DataSourceViewModel.swift */; };
+		F89B36152B24647700CCE6C3 /* RandomStringDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36142B24647700CCE6C3 /* RandomStringDataModel.swift */; };
+		F89B36172B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36162B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		F89B36052B244E1D00CCE6C3 /* DiffableDataSourcePageViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePageViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		F89B36082B244EE700CCE6C3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		F89B360A2B244F3C00CCE6C3 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F89B360C2B24526D00CCE6C3 /* DataSourcePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourcePageViewController.swift; sourceTree = "<group>"; };
+		F89B360E2B24527A00CCE6C3 /* DataSourcePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataSourcePage.storyboard; sourceTree = "<group>"; };
+		F89B36112B245FAF00CCE6C3 /* DataSourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceViewModel.swift; sourceTree = "<group>"; };
+		F89B36142B24647700CCE6C3 /* RandomStringDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringDataModel.swift; sourceTree = "<group>"; };
+		F89B36162B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,8 @@
 		F89B35F82B243C3300CCE6C3 /* DiffableDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				F89B36132B24646200CCE6C3 /* Models */,
+				F89B36102B245F9800CCE6C3 /* ViewModels */,
 				F89B36072B244ED200CCE6C3 /* Views */,
 				F89B36032B24456000CCE6C3 /* ViewControllers */,
 			);
@@ -153,6 +165,8 @@
 			children = (
 				F89B35FB2B243EEF00CCE6C3 /* DiffableDataSourcePageViewController.swift */,
 				F89B35FD2B243F0100CCE6C3 /* DiffableDataSourcePage.storyboard */,
+				F89B360C2B24526D00CCE6C3 /* DataSourcePageViewController.swift */,
+				F89B360E2B24527A00CCE6C3 /* DataSourcePage.storyboard */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +186,23 @@
 				F89B360A2B244F3C00CCE6C3 /* CollectionViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F89B36102B245F9800CCE6C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F89B36112B245FAF00CCE6C3 /* DataSourceViewModel.swift */,
+				F89B36162B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F89B36132B24646200CCE6C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F89B36142B24647700CCE6C3 /* RandomStringDataModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89B360F2B24527A00CCE6C3 /* DataSourcePage.storyboard in Resources */,
 				F89B35D52B243BEB00CCE6C3 /* LaunchScreen.storyboard in Resources */,
 				F89B35D22B243BEB00CCE6C3 /* Assets.xcassets in Resources */,
 				F89B35FE2B243F0100CCE6C3 /* DiffableDataSourcePage.storyboard in Resources */,
@@ -308,11 +340,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89B36022B2443FC00CCE6C3 /* RootViewController.swift in Sources */,
+				F89B360D2B24526D00CCE6C3 /* DataSourcePageViewController.swift in Sources */,
 				F89B36062B244E1D00CCE6C3 /* DiffableDataSourcePageViewControllerRepresentable.swift in Sources */,
+				F89B36122B245FAF00CCE6C3 /* DataSourceViewModel.swift in Sources */,
 				F89B35FA2B243D7D00CCE6C3 /* RootListView.swift in Sources */,
+				F89B36152B24647700CCE6C3 /* RandomStringDataModel.swift in Sources */,
 				F89B35FC2B243EEF00CCE6C3 /* DiffableDataSourcePageViewController.swift in Sources */,
 				F89B36092B244EE700CCE6C3 /* CollectionViewCell.swift in Sources */,
 				F89B35C92B243BEA00CCE6C3 /* AppDelegate.swift in Sources */,
+				F89B36172B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
