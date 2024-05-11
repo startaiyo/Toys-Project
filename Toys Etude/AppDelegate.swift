@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TestModule
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                   animated: true)
         window?.rootViewController = navCon
         window?.makeKeyAndVisible()
+
+        let hoge = HogeTarou()
         return true
     }
 }

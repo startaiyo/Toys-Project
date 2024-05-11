@@ -16,6 +16,9 @@ struct RootListView: View {
             NavigationLink(destination: DataSourcePageViewControllerRepresentable()) {
                 Text("DataSourcePageViewController")
             }
+            NavigationLink(destination: AccessControlViewControllerRepresentable()) {
+                Text("AccessControlViewController")
+            }
         }
     }
 }
