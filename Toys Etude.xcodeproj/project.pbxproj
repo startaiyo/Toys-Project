@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81F42132C28E69500BCD399 /* DecodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F42122C28E69500BCD399 /* DecodableView.swift */; };
+		F82FDFDA2C09885A00F2570B /* PatternMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FDFD92C09885A00F2570B /* PatternMatchingView.swift */; };
 		F840615D2BEAF82D0043AA2F /* TestModule in Frameworks */ = {isa = PBXBuildFile; productRef = F840615C2BEAF82D0043AA2F /* TestModule */; };
+		F84BDAA92C1290FC00477D35 /* ErrorHandlingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84BDAA82C1290FC00477D35 /* ErrorHandlingView.swift */; };
 		F89B35C92B243BEA00CCE6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B35C82B243BEA00CCE6C3 /* AppDelegate.swift */; };
 		F89B35D22B243BEB00CCE6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89B35D12B243BEB00CCE6C3 /* Assets.xcassets */; };
 		F89B35D52B243BEB00CCE6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89B35D32B243BEB00CCE6C3 /* LaunchScreen.storyboard */; };
@@ -27,11 +30,16 @@
 		F89B36122B245FAF00CCE6C3 /* DataSourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36112B245FAF00CCE6C3 /* DataSourceViewModel.swift */; };
 		F89B36152B24647700CCE6C3 /* RandomStringDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36142B24647700CCE6C3 /* RandomStringDataModel.swift */; };
 		F89B36172B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B36162B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift */; };
+		F8E72A192C32234400CABFA5 /* MemoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E72A182C32234400CABFA5 /* MemoryManagementView.swift */; };
+		F8E72A262C37904700CABFA5 /* ValueSemanticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E72A252C37904700CABFA5 /* ValueSemanticsView.swift */; };
 		F8F604B22BEEDB1100D042FA /* AccessControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F604B12BEEDB1100D042FA /* AccessControlViewController.swift */; };
 		F8F604B42BEEDB2100D042FA /* AccessControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F604B32BEEDB2100D042FA /* AccessControl.storyboard */; };
 		F8F604B72BEEDB7700D042FA /* AccessControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F604B62BEEDB7700D042FA /* AccessControlViewModel.swift */; };
 		F8F604B92BEEDBA900D042FA /* AccessControlViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F604B82BEEDBA900D042FA /* AccessControlViewControllerRepresentable.swift */; };
 		F8F604BF2BEEF5D900D042FA /* SecretModule in Frameworks */ = {isa = PBXBuildFile; productRef = F8F604BE2BEEF5D900D042FA /* SecretModule */; };
+		F8F604DC2BF58AD700D042FA /* CustomOperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F604DB2BF58AD700D042FA /* CustomOperatorView.swift */; };
+		F8F604E22BFAD08400D042FA /* SubscriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F604E12BFAD08400D042FA /* SubscriptsView.swift */; };
+		F8F6051C2C0431E800D042FA /* ResultBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6051B2C0431E800D042FA /* ResultBuilderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81F42122C28E69500BCD399 /* DecodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableView.swift; sourceTree = "<group>"; };
+		F82FDFD92C09885A00F2570B /* PatternMatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternMatchingView.swift; sourceTree = "<group>"; };
 		F840615B2BEAF7B30043AA2F /* TestModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TestModule; sourceTree = "<group>"; };
+		F84BDAA82C1290FC00477D35 /* ErrorHandlingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingView.swift; sourceTree = "<group>"; };
 		F89B35C52B243BEA00CCE6C3 /* Toys Etude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toys Etude.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89B35C82B243BEA00CCE6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F89B35D12B243BEB00CCE6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,11 +87,16 @@
 		F89B36112B245FAF00CCE6C3 /* DataSourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceViewModel.swift; sourceTree = "<group>"; };
 		F89B36142B24647700CCE6C3 /* RandomStringDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringDataModel.swift; sourceTree = "<group>"; };
 		F89B36162B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		F8E72A182C32234400CABFA5 /* MemoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagementView.swift; sourceTree = "<group>"; };
+		F8E72A252C37904700CABFA5 /* ValueSemanticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSemanticsView.swift; sourceTree = "<group>"; };
 		F8F604B12BEEDB1100D042FA /* AccessControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewController.swift; sourceTree = "<group>"; };
 		F8F604B32BEEDB2100D042FA /* AccessControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccessControl.storyboard; sourceTree = "<group>"; };
 		F8F604B62BEEDB7700D042FA /* AccessControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewModel.swift; sourceTree = "<group>"; };
 		F8F604B82BEEDBA900D042FA /* AccessControlViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		F8F604BD2BEEF4A700D042FA /* SecretModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SecretModule; sourceTree = "<group>"; };
+		F8F604DB2BF58AD700D042FA /* CustomOperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperatorView.swift; sourceTree = "<group>"; };
+		F8F604E12BFAD08400D042FA /* SubscriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptsView.swift; sourceTree = "<group>"; };
+		F8F6051B2C0431E800D042FA /* ResultBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +126,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F81F42102C28E64E00BCD399 /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				F81F42112C28E68400BCD399 /* Views */,
+			);
+			path = Decodable;
+			sourceTree = "<group>";
+		};
+		F81F42112C28E68400BCD399 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F81F42122C28E69500BCD399 /* DecodableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F82FDFD82C09884600F2570B /* PatternMatching */ = {
+			isa = PBXGroup;
+			children = (
+				F82FDFD92C09885A00F2570B /* PatternMatchingView.swift */,
+			);
+			path = PatternMatching;
+			sourceTree = "<group>";
+		};
 		F840615A2BEAF7B30043AA2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F840615B2BEAF7B30043AA2F /* TestModule */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F84BDAA72C1290E900477D35 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				F84BDAA82C1290FC00477D35 /* ErrorHandlingView.swift */,
+			);
+			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		F89B35BC2B243BEA00CCE6C3 = {
@@ -143,8 +191,16 @@
 		F89B35C72B243BEA00CCE6C3 /* Toys Etude */ = {
 			isa = PBXGroup;
 			children = (
+				F8E72A242C37903000CABFA5 /* ValueSemantic */,
 				F8F604AF2BEEDAD100D042FA /* Access Control */,
+				F8F604C22BF1D43F00D042FA /* CustomOperator */,
+				F81F42102C28E64E00BCD399 /* Decodable */,
 				F89B35F82B243C3300CCE6C3 /* DiffableDataSource */,
+				F84BDAA72C1290E900477D35 /* ErrorHandling */,
+				F8E72A172C32231B00CABFA5 /* MemoryManagementView */,
+				F82FDFD82C09884600F2570B /* PatternMatching */,
+				F8F6051A2C0431CC00D042FA /* ResultBuilder */,
+				F8F604DF2BFAD06E00D042FA /* Subscripts */,
 				F89B35C82B243BEA00CCE6C3 /* AppDelegate.swift */,
 				F89B35FF2B24428500CCE6C3 /* ViewController.storyboard */,
 				F89B35D12B243BEB00CCE6C3 /* Assets.xcassets */,
@@ -231,6 +287,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F8E72A172C32231B00CABFA5 /* MemoryManagementView */ = {
+			isa = PBXGroup;
+			children = (
+				F8E72A182C32234400CABFA5 /* MemoryManagementView.swift */,
+			);
+			path = MemoryManagementView;
+			sourceTree = "<group>";
+		};
+		F8E72A242C37903000CABFA5 /* ValueSemantic */ = {
+			isa = PBXGroup;
+			children = (
+				F8E72A252C37904700CABFA5 /* ValueSemanticsView.swift */,
+			);
+			path = ValueSemantic;
+			sourceTree = "<group>";
+		};
 		F8F604AF2BEEDAD100D042FA /* Access Control */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +327,46 @@
 				F8F604B62BEEDB7700D042FA /* AccessControlViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8F604C22BF1D43F00D042FA /* CustomOperator */ = {
+			isa = PBXGroup;
+			children = (
+				F8F604C42BF1D45600D042FA /* ViewControllers */,
+			);
+			path = CustomOperator;
+			sourceTree = "<group>";
+		};
+		F8F604C42BF1D45600D042FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F604DB2BF58AD700D042FA /* CustomOperatorView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F8F604DF2BFAD06E00D042FA /* Subscripts */ = {
+			isa = PBXGroup;
+			children = (
+				F8F604E02BFAD07A00D042FA /* Views */,
+			);
+			path = Subscripts;
+			sourceTree = "<group>";
+		};
+		F8F604E02BFAD07A00D042FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8F604E12BFAD08400D042FA /* SubscriptsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F6051A2C0431CC00D042FA /* ResultBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6051B2C0431E800D042FA /* ResultBuilderView.swift */,
+			);
+			path = ResultBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,16 +514,24 @@
 			files = (
 				F89B36022B2443FC00CCE6C3 /* RootViewController.swift in Sources */,
 				F89B360D2B24526D00CCE6C3 /* DataSourcePageViewController.swift in Sources */,
+				F81F42132C28E69500BCD399 /* DecodableView.swift in Sources */,
+				F8F604DC2BF58AD700D042FA /* CustomOperatorView.swift in Sources */,
+				F8F6051C2C0431E800D042FA /* ResultBuilderView.swift in Sources */,
 				F89B36062B244E1D00CCE6C3 /* DiffableDataSourcePageViewControllerRepresentable.swift in Sources */,
+				F8E72A192C32234400CABFA5 /* MemoryManagementView.swift in Sources */,
 				F8F604B92BEEDBA900D042FA /* AccessControlViewControllerRepresentable.swift in Sources */,
+				F8E72A262C37904700CABFA5 /* ValueSemanticsView.swift in Sources */,
 				F89B36122B245FAF00CCE6C3 /* DataSourceViewModel.swift in Sources */,
+				F82FDFDA2C09885A00F2570B /* PatternMatchingView.swift in Sources */,
 				F8F604B22BEEDB1100D042FA /* AccessControlViewController.swift in Sources */,
 				F89B35FA2B243D7D00CCE6C3 /* RootListView.swift in Sources */,
 				F89B36152B24647700CCE6C3 /* RandomStringDataModel.swift in Sources */,
 				F89B35FC2B243EEF00CCE6C3 /* DiffableDataSourcePageViewController.swift in Sources */,
 				F89B36092B244EE700CCE6C3 /* CollectionViewCell.swift in Sources */,
 				F89B35C92B243BEA00CCE6C3 /* AppDelegate.swift in Sources */,
+				F8F604E22BFAD08400D042FA /* SubscriptsView.swift in Sources */,
 				F8F604B72BEEDB7700D042FA /* AccessControlViewModel.swift in Sources */,
+				F84BDAA92C1290FC00477D35 /* ErrorHandlingView.swift in Sources */,
 				F89B36172B246F4C00CCE6C3 /* CollectionViewCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

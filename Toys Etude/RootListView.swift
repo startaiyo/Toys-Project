@@ -19,6 +19,30 @@ struct RootListView: View {
             NavigationLink(destination: AccessControlViewControllerRepresentable()) {
                 Text("AccessControlViewController")
             }
+            NavigationLink(destination: CustomOperatorView()) {
+                Text("CustomOperator")
+            }
+            NavigationLink(destination: SubscriptsView()) {
+                Text("SubscriptsView")
+            }
+            NavigationLink(destination: ResultBuilderView()) {
+                Text("ResultBuilderView")
+            }
+            NavigationLink(destination: PatternMatchingView()) {
+                Text("PatternMatchingView")
+            }
+            NavigationLink(destination: ErrorHandlingView()) {
+                Text("ErrorHandlingView")
+            }
+            NavigationLink(destination: DecodableView()) {
+                Text("DecodableView")
+            }
+            NavigationLink(destination: MemoryManagementView()) {
+                Text("MemoryManagementView")
+            }
+            NavigationLink(destination: ValueSemanticsView()) {
+                Text("ValueSemanticsView")
+            }
         }
     }
 }
